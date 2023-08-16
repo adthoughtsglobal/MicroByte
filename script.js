@@ -72,7 +72,7 @@ document.getElementById("inp").addEventListener("keyup", function(event) {
 });
 
 // Fetch the db.json file and use its content to update the knowledge base
-fetch("/db.json")
+fetch("/MicroByte/db.json")
 	.then((response) => response.json())
 	.then((data) => {
 		// Merge the fetched data from db.json with the knowledge base from IndexedDB
