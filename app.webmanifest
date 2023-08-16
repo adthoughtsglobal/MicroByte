@@ -1,0 +1,24 @@
+{
+  "background_color":"white",
+  "description": "The Fastest Text Chat Ai which Does not use GPT",
+"screenshots":[
+    {
+      "src":"https://media.discordapp.net/attachments/996396323458789466/1140307201085427823/Untitled_drawing_2.png?width=535&height=401",
+      "sizes":"535x401",
+      "type":"image/png",
+      "form_factor":"wide",
+      "label":"MicroByte"
+    }
+  ],
+  "display": "standalone",
+"icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "MicroByte",
+  "short_name": "MicroByte",
+  "start_url": "https://microbyte.adthoughtsglobal.repl.co"
+}
