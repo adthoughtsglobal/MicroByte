@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>MicroByte</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="manifest" href="/app.webmanifest" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "i8fxv75ul7");
+</script>
+</head>
+
+<body>
+	<h1 onclick="document.getElementById('p').showModal()">MicroByte AI</h1>
+	<span>The <b>Fastest</b> Text Chat Ai which <b>Does not use GPT</b></span>
+	<div id="output">
+		<div class="botm me"><span>Welcome!<br><br>All bugs have been fixed!</span></div><br>
+		<div class="usm me"><span>What can you do?</span></div>
+		<div class="botm me"><span>You can learn from me and the same time, teach me!<br><br>I learns the statements you say and later when you ask a similar question, i finds out which question you are talking about and answer that. You can also feed me more data by asking the question you want me to learn or just say a statement.</span></div><br>
+		<div class="usm me"><span>My phone number is 123-456-789.</span></div>
+		<div class="botm me"><span>Learned it!</span></div><br>
+		<div class="usm me"><span>What is my phone number?</span></div>
+		<div class="botm me"><span>Your phone number is 123-456-789.</span></div>
+		<hr>
+		<center>End of example usage</center>
+		<hr>
+		<div class="botm me"><span>Hey There! How can i help you today?</span></div><br>
+	</div>
+	<div class="mess">
+		<input placeholder="Type A Query.." id="inp" autocomplete="off">
+		<button onclick="msend()">Send</button>
+	</div>
+	<br>
+
+	<dialog id="p">
+		<b onclick="this.parentElement.close()" style="text-align: center; display: block; font-size: 25px; cursor: pointer; text-decoration: underline; background-color: #373737; padding: 10px 5px; border-radius: 10px;">Close</b>
+	<h3>What is MicroByte?</h3>
+	MicroByte is a friendly AI chatbot that learns from interactions. When unsure about a question, it kindly asks for guidance. Through user input, it keeps growing and providing better responses over time. Your engagement helps shape MicroByte into a more knowledgeable and helpful companion.
+		<h3>What makes this special?</h3>
+		With MicroByte, you have the ability to have a simple fast AI on your device even offline. As this does not use GPT, Microbyte ensures privacy and fastens reply speed.
+		<h3>What you can do with This?</h3>
+		You can have answers for simple questions like What is the capital of india? or What is the boiling point of alcohol?
+		<br><br>
+		<span>Buffer Rate: </span>
+		<input type="number" value="0.5" id='lr'><br><sub>*The speed depends on the device and browser.</sub></dialog>
+	<script src="db.json"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
